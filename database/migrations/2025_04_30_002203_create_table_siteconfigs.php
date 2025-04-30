@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('table_siteconfigs', function (Blueprint $table) {
+        Schema::create('siteconfigs', function (Blueprint $table) {
             $table->uuid('id')->primary()->comment('Primary UUID key');
             $table->string('key')->unique()->comment('Config key');
             $table->text('value')->nullable()->comment('Config value');
@@ -25,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('table_siteconfigs');
+        Schema::dropIfExists('siteconfigs');
     }
 };

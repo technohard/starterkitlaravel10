@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('table_banners', function (Blueprint $table) {
+        Schema::create('banners', function (Blueprint $table) {
             $table->uuid('id')->primary()->comment('Primary UUID key');
             $table->string('title')->comment('Banner title');
             $table->string('image')->comment('Banner image path');
@@ -26,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('table_banners');
+        Schema::dropIfExists('banners');
     }
 };
