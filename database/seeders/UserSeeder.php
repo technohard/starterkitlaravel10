@@ -26,25 +26,25 @@ class UserSeeder extends Seeder
             [
                 'name' => 'Normal User',
                 'username' => 'user',
-                'email' => 'user@trubuzstudio.com',
+                'email' => 'user@email.com',
                 'role' => 'User'
             ],
             [
                 'name' => 'Seller User',
                 'username' => 'seller',
-                'email' => 'seller@trubuzstudio.com',
+                'email' => 'seller@email.com',
                 'role' => 'Seller'
             ],
             [
                 'name' => 'Admin User',
                 'username' => 'admin',
-                'email' => 'admin@trubuzstudio.com',
+                'email' => 'admin@email.com',
                 'role' => 'Admin'
             ],
             [
                 'name' => 'Super Admin User',
                 'username' => 'superadmin',
-                'email' => 'superadmin@trubuzstudio.com',
+                'email' => 'superadmin@email.com',
                 'role' => 'Super Admin'
             ],
         ];
