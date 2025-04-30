@@ -11,6 +11,7 @@ Intervention Image	Manipulasi gambar
 Maatwebsite Excel	Import/export Excel & CSV
 Laravel Telescope	Debugging tool Laravel
 UUID Primary Keys	Semua tabel menggunakan UUID
+
 🗂 Struktur Migrasi yang Disiapkan
 siteconfigs – Konfigurasi umum situs
 
